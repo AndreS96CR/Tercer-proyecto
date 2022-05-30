@@ -14,7 +14,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color:var(--Light-Grayish-Blue) ;
     display: flex;
@@ -24,30 +24,30 @@ body {
 
 
 .card-container {
-    width: 375px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
 }
-.card-container img {
-     width: 100%;
-     height: 22rem;
+#portada {
+     width: 20%;
+     height: 29.58rem;
      object-fit: cover;
      border-top-left-radius: 1.4rem;
-     border-top-right-radius: 1.4rem;
 }
 .card-container h1 {
     color: var(--Very-Dark-Grayish-Blue);
     width: 100%;
     display: inline-block;
     padding: 3rem 2.6rem 1.6rem 2.6rem;
-    font-size: 2rem ;
+    font-size: 2.4rem ;
     font-family: 'Manrope', sans-serif;
 }
 .card-container p {
     color: var(--Desaturated-Dark-Blue);
-    font-size: 1.64rem;
+    font-size: 1.48rem;
     padding: 0rem 2.6rem 2.8rem 2.6rem;
     font-family: 'Manrope', sans-serif;
 }
@@ -55,7 +55,7 @@ body {
 
 .buttom-side-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 2.6rem;
     margin-bottom: 2rem;
 }
@@ -69,10 +69,12 @@ body {
     border-radius: 50%;
 }
 .buttom-side-container__content .buttom-side-container__title {
+    margin-left: 2rem;
     padding: 0;
     font-size: 1.6rem;
 }
 .buttom-side-container__content .buttom-side-container__paragraph {
+    margin-left: 2rem;
     padding: 0;
     font-size: 1.4rem;
     color: var(--Grayish-Blue);
@@ -80,6 +82,7 @@ body {
 #buttom-side-container__icon {
     display: flex;
     justify-content: center;
+    margin-left: 17rem;
     align-items: center;
     width: 2.8rem;
     height: 2.8rem;
@@ -90,9 +93,3 @@ body {
     width: 1.4rem;
     height: 1.4rem;
 }
-
-
-
-
-
-

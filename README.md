@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Article preview component
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
@@ -92,3 +93,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Tercer-proyecto
+Este es el tercer proyecto que hago con frontent mentors
+>>>>>>> 29a06c2b79eef7137982f464bb51cefc1f6e2e34

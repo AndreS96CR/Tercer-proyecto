@@ -1,0 +1,6 @@
+*.svg
+*jpg
+*.sketch
+*.xd
+*.fig
+.DS_Store
